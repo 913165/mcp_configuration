@@ -1,22 +1,22 @@
 # 🟦 <span style="color:#4A90E2;">MCP File System Configuration</span>
 
-```json
-{
-  "mcpServers": {
-    "filesystem": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "C:\\Users\\tinum\\Desktop",
-        "C:\\Users\\tinum\\Documents"
-      ],
-      "disabled": false,
-      "autoApprove": []
-    }
-  }
-}
-```
+<div style="background-color:#1e1e1e; padding:20px; border-radius:8px; font-family:monospace; color:#d4d4d4;">
+<span style="color:#569cd6;">{</span><br>
+&nbsp;&nbsp;<span style="color:#9cdcfe;">"mcpServers"</span><span style="color:#d4d4d4;">:</span> <span style="color:#569cd6;">{</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9cdcfe;">"filesystem"</span><span style="color:#d4d4d4;">:</span> <span style="color:#569cd6;">{</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9cdcfe;">"command"</span><span style="color:#d4d4d4;">:</span> <span style="color:#ce9178;">"npx"</span><span style="color:#d4d4d4;">,</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9cdcfe;">"args"</span><span style="color:#d4d4d4;">:</span> <span style="color:#569cd6;">[</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#ce9178;">"-y"</span><span style="color:#d4d4d4;">,</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#ce9178;">"@modelcontextprotocol/server-filesystem"</span><span style="color:#d4d4d4;">,</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#ce9178;">"C:\\Users\\tinum\\Desktop"</span><span style="color:#d4d4d4;">,</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#ce9178;">"C:\\Users\\tinum\\Documents"</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#569cd6;">]</span><span style="color:#d4d4d4;">,</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9cdcfe;">"disabled"</span><span style="color:#d4d4d4;">:</span> <span style="color:#569cd6;">false</span><span style="color:#d4d4d4;">,</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#9cdcfe;">"autoApprove"</span><span style="color:#d4d4d4;">:</span> <span style="color:#569cd6;">[]</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#569cd6;">}</span><br>
+&nbsp;&nbsp;<span style="color:#569cd6;">}</span><br>
+<span style="color:#569cd6;">}</span>
+</div>
 
 ---
 
@@ -32,9 +32,13 @@
 
 ---
 
-> <span style="color:#007ACC;">**📝 Note:**</span>  
-> Markdown does not natively support color for text, but you can use HTML `<span>` tags with <span style="color:#E91E63;">inline styles</span> for color in environments that support it (like some <span style="color:#FF9800;">GitHub-flavored Markdown</span> renderers or <span style="color:#9C27B0;">documentation sites</span>).
-
-<div style="background: linear-gradient(90deg, #FF6B35, #F7931E, #FFD23F); padding: 10px; border-radius: 5px; margin: 10px 0;">
-<span style="color: white; font-weight: bold;">🎨 Pro Tip: Use complementary colors and maintain readability for the best visual experience!</span>
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 8px; border-left: 4px solid #4A90E2;">
+<span style="color: white; font-weight: bold;">🎨 Color Scheme Used:</span><br>
+<span style="color: #FFE4E1;">• Keys: <span style="color:#9cdcfe;">Light Blue</span></span><br>
+<span style="color: #FFE4E1;">• String Values: <span style="color:#ce9178;">Orange</span></span><br>
+<span style="color: #FFE4E1;">• Boolean/Brackets: <span style="color:#569cd6;">Blue</span></span><br>
+<span style="color: #FFE4E1;">• Background: <span style="color:#1e1e1e;">Dark Theme</span></span>
 </div>
+
+> <span style="color:#007ACC;">**📝 Note:**</span>  
+> This uses <span style="color:#E91E63;">VS Code Dark Theme</span> inspired colors for better readability and syntax highlighting in <span style="color:#FF9800;">HTML-supported Markdown</span> environments.
