@@ -1,4 +1,4 @@
-# 🟦 mcp location configuratio
+# 🟦 mcp file system configuration
 
 ```json
 {
