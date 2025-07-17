@@ -2,6 +2,7 @@ mcp location configuratio
 
 make sure folder/file exists with below path at windows
 
+```json
 {
   "mcpServers": {
     "filesystem": {
@@ -17,3 +18,4 @@ make sure folder/file exists with below path at windows
     }
   }
 }
+```
